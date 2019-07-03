@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        #wrap{
+            margin: 0 auto;
+            overflow:hidden;
+            background-color:#ececec;
+        }
+        #picture{
+            margin:100px;
+            float:left;
+        }
+        #main{
+            margin: 100px;
+            background-color:white;
+            width:373px;
+            float:left;
+            border:1px solid #ececec;
+        }
+        #top{
+            text-align:center;
+            border-bottom:1px solid #ececec;
+            margin:10px;
+        }
+        #bottom form,img,p{
+            text-align:center;
+            margin:10px;
+        }
+        #bottom p{
+            margin:50px;
+        }
+        #sub{
+            height:50px;
+            background-color:white;
+            border-top:50px solid #ececec;
+        }
+        #bottom input{
+            width:190px;
+            height:30px;
+            font-size:0.8em;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div id="picture">
+            <img src="C:\Temp\인스타캡쳐.png" width="500" height="700" />
+        </div>
+
+        <div id="main">
+            <div id="top">
+                <img src="C:\Temp\인스타.PNG" />
+                <p>친구들의 사진과 동영상을 보려면 가입하세요.</p>
+                <a href="#"><img src="C:\Temp\facebook.png" /></a>
+            </div>
+            <div id="bottom">
+                <form>
+                    <input type="text" name="userPhone" placeholder="휴대폰 번호 또는 이메일 주소" /><br />
+                    <input type="text" name="userName" placeholder="성명" /><br />
+                    <input type="text" name="userNick" placeholder="사용자 이름" /><br />
+                    <input type="password" name="pass" placeholder="비밀번호" /><br />
+                    <a href="#"><img src="C:\Temp\가입.png" /></a>
+                </form>
+                <p>
+                    가입하면 instagram의 약관,데이터정책 및 쿠키 정책에
+                    동의하게 됩니다.
+                </p>
+            </div>
+            <div id="sub">
+                <p>계정이있으신가요?<a href="#" target="_blank">로그인</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
