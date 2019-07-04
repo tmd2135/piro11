@@ -1,0 +1,34 @@
+﻿.logo-area {
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 74px;
+}
+
+#logo {
+    width: 175px;
+    margin: 0 auto;
+}
+
+.nav {
+    text-align: center;
+}
+
+.na-style {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+}
+
+    .na-style > li {
+        float: left;
+        margin-right: 20px;
+    }
+
+.content-area {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#content {
+    width: 100%;
+}
