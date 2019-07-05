@@ -1,0 +1,78 @@
+﻿#wrap a {
+    text-decoration: none;
+}
+
+#callToActio {
+    background-color: #34328a;
+    color: white;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container {
+    position: relative;
+    left: 150px;
+}
+
+.explan {
+    box-sizing: border-box;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: left;
+    width: 800px;
+    position: relative;
+    left: 30px;
+}
+
+.button {
+    text-align: center !important;
+    float: left;
+    position: relative;
+    top: 40px;
+}
+
+    .button a {
+        display: inline-block;
+        color: white;
+        border: 3px solid white;
+        padding: 10px 20px;
+        margin: 10px;
+        border-radius: 5px;
+    }
+
+.pic01, .pic02 {
+    width: 575px;
+    height: 559px;
+    float: left;
+}
+
+#Third {
+    clear: both;
+}
+
+#Four {
+    clear: both;
+    background-color: #eefeff;
+}
+
+.OurPortfoile {
+    text-align: center;
+}
+
+.meun .ourMeun {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    left: 460px;
+}
+
+.ourMeun > li {
+    float: left;
+    margin-left: 20px;
+}
