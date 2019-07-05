@@ -1,0 +1,56 @@
+@media screen and (max-width:768px){
+*{text-align:center;}
+.testimonials-item{text-align:center;}
+    #wrap8 .testimonials-item .testimonials-image{
+        text-align:center; width:100%; border: 3px solid red;}
+        #wrap8 .explanation p{ width:100px;}
+}
+@media sereen and (min-width: 769px){
+
+}
+ .wrap-header{text-align: center;}
+        h2{font-size:2em}
+        #wrap8{width:100%; background-color:white; height:300px;
+           }
+        #wrap8 .testimonials-item{overflow:hidden; ;
+                                    width: 50%; margin: 0 auto;}
+        #wrap8 .testimonials-item div{float:left;
+                                    padding-left:30px;}
+        #wrap8 .explanation{width:500px;}
+        #wrap8 .explanation h3{ margin:2px; font-size:1.3em;}
+        #wrap8 .explanation h4{ margin:2px; color:gray; font-size:0.9em;}
+
+        #wrap8 .explanation p{ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                            width:400px;
+                            word-break:break-all;}
+        #wrap8 .button{clear:both;}
+        #wrap9{text-align: center; margin-top: 30px; padding:100px 20px; background-color:#F5F8FD}
+        #wrap9 #team-section{overflow:hidden; width:90%; margin:0 auto;
+                             }
+        #wrap9 .person{float:left; margin: 0 3%; position:relative;
+                        }
+        #wrap9 .person > img{}
+        #wrap9 .person .personal-information{position:absolute; z-index:9999;
+                            top:170px; background-color:rgba( 0, 0, 0, 0.5);
+                            color:white;
+                            width:225px;
+
+                            }
+        #wrap9 .person .personal-information img{width:15px; height:15px; margin:0 1px;
+                               }
+        @keyframes slideup{
+            from{}
+            to{top:150px;}
+        }
+#wrap9 .person img:hover + .personal-information {
+    animation-duration: 0.3s;
+    animation-fill-mode: both;
+    animation-name: slideup;
+}
+         #wrap9 .person .personal-information h4{margin:5px;}
+        #wrap9 .person .personal-information p{ margin:0px; padding:2px;}
+        #wrap10{clear:both; margin-top: 30px; padding:30px;}
+        #wrap10 #client-box{width: 90%; margin: 0 auto; overflow:hidden; }
+        #wrap10 #client-box .clients-image{float:left;   margin: 0 1.5%;}
+        #wrap10 #client-box .clients-image img{width:180px; height:100px; opacity:0.7}
+        #wrap10 #client-box .clients-image img:hover{opacity:1.0}
