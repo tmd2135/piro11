@@ -1,0 +1,147 @@
+﻿#wrap a {
+    text-decoration: none;
+}
+
+#callToActio {
+    background-color: #34328a;
+    color: white;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container {
+    position: relative;
+    left: 150px;
+}
+
+.explan {
+    box-sizing: border-box;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: left;
+    width: 800px;
+    position: relative;
+    left: 30px;
+}
+
+.button {
+    text-align: center !important;
+    float: left;
+    position: relative;
+    top: 40px;
+}
+
+    .button a {
+        display: inline-block;
+        color: white;
+        border: 3px solid white;
+        padding: 10px 20px;
+        margin: 10px;
+        border-radius: 5px;
+    }
+
+.pic01, .pic02 {
+    width: 575px;
+    height: 559px;
+    float: left;
+}
+.pic01 h3{
+    font-size:30px;
+}
+.pic02 h3{
+    font-size:30px;
+}
+
+#Third {
+    clear: both;
+}
+
+#Four {
+    clear: both;
+    background-color: #F5F8FD;
+}
+#Four .container{
+    height:800px;
+}
+.meunPicture{
+    height:800px;
+}
+
+.OurPortfoile {
+    text-align: center;
+}
+
+.meun .ourMeun {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    left: 460px;
+}
+
+.ourMeun > li {
+    float: left;
+    margin-left: 20px;
+}
+.meunPicture div{
+    width:300px;
+    height:200px;
+    margin:10px;
+}
+.meunPicture img{
+    width:300px;
+    height:200px;
+    margin:10px;
+}
+.mp1 {
+    position:relative;
+    left:0;
+    top:0;
+}
+.mp2{
+    position:relative;
+    left:320px;
+    top:-210px;
+}
+.mp3{
+    position:relative;
+    left:640px;
+    top:-420px;
+}
+.mp4{
+    position:relative;
+    left:0;
+    top:-420px;
+}
+.mp5{
+    position:relative;
+    left:320px;
+    top:-630px;
+}
+.mp6{
+    position:relative;
+    left:640px;
+    top:-840px;
+}
+.mp7 {
+    position: relative;
+    left: 0;
+    top: -840px;
+}
+
+.mp8 {
+    position: relative;
+    left: 320px;
+    top: -1050px;
+}
+
+.mp9 {
+    position: relative;
+    left: 640px;
+    top: -1260px;
+}
