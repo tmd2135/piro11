@@ -1,0 +1,46 @@
+.wrap{
+            display:flex;
+            flex-direction:column;
+            position:absolute;
+            top:0;
+            right:0;
+            bottom:0;
+            left:0;
+            width:100%;
+            height:100%;
+        }
+        .meun{
+            display: flex;
+            height:55px;
+            background-color:black;
+            clear: both;
+        }
+        .meun ul li{
+            float:left;
+            list-style: none;
+            margin: 10px;
+            color:white;
+        }
+
+        .intro{
+            background-color: #747474;
+            max-height: 140px;
+        }
+        .intro  h1{
+            margin: 20px;
+        }
+        .link{
+            color: blue;
+        }
+        .link ul li{
+            border: 0.5px solid #909090;
+            list-style: none;
+            text-align: center;
+        }
+        .section h2, input{
+            margin-top: 20px;
+        }
+        .footer{
+            margin-top: 20px;
+            border-top: 1px solid #909090;
+        }
